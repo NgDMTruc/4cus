@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Distract Detection</title>
+    <style>
+        #videoElement {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Distract Detection</h1>
+    <video id="videoElement"></video>
+
+    <script>
+        // Access the user's camera
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (stream) {
+                var video = document.getElementById('videoElement');
+                video.srcObject = stream;
+                video.play();
+            })
+            .catch(function (err) {
+                console.log('Error accessing camera: ' + err);
+            });
+    </script>
+</body>
+</html>
