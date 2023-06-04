@@ -1,12 +1,13 @@
 # 4cus
 It will help you focus when working
+I watched a lot from https://www.youtube.com/watch?v=yqkISICHH-U&t=7977s, Mr.Nicholas Renotte , and his git: https://github.com/nicknochnack/TFODCourse. But this coursee is from 2 years ago and used tensorflow version 1 and a bit old-fashion, I changed a lot. Hopee it will help you.
 
 Introduction
 My work can be divided into two parts: label data and
 object detection. Image labeling and object detection are
 fundamental tasks in the field of computer vision, enabling
 applications such as autonomous driving, surveillance, and
-image recognition. 
+image recognition. However in the end, not only detect, I will also do something correspond for each action detected(like play a sound)
 
 Technical Overview
 To ensure the reliability and quality
